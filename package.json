@@ -1,0 +1,24 @@
+{
+  "name": "Rick-and-Morty-app",
+  "version": "1.0.0",
+  "description": "Repo to practice with the [Rick and Morty api](https://rickandmortyapi.com).",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esemega/Rick-and-Morty-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esemega/Rick-and-Morty-app/issues"
+  },
+  "homepage": "https://github.com/Esemega/Rick-and-Morty-app#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
