@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Rick and Morty app</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>The Rick and Morty app</h1>
+      <h1>The Rick and Morty app</h1>
     </header>
+    <div class="pagination">
+      <button id="previous-button">&laquo;</button>
+      Mostrando página <span id="current-page">1</span> de <span id="total-pages">1</span>
+      <button id="next-button">&raquo;</button>
+    </div>
     <main>
-        <div id="root">Loading...</div>
+      <div id="root">Loading...</div>
     </main>
     <aside id="character-detail"></aside>
-    <footer>
-        <button id="next-page">
-            +
-        </button>
-    </footer>
     <script src="./src/index.js"></script>
-</body>
+  </body>
 </html>

@@ -30,7 +30,7 @@ const createRowText = character => {
 
 const createAvatarDetail = character => {
   const element = document.createElement("img");
-  element.width = 350;
+  element.width = 300;
   element.src = character.image;
 
   return element;
@@ -49,6 +49,9 @@ const showCharacter = character => {
   characterDetail.appendChild(
     createParagraph("Origin: " + character.origin.name)
   );
+  characterDetail.appendChild(
+    createParagraph("Location: " + character.location.name)
+  );
 };
 
 const createParagraph = text => {
@@ -57,19 +60,4 @@ const createParagraph = text => {
   return element;
 };
 
-//Adding some functions to utils.js
-
-const showQuote = (quote) => {
-  const characterDetail = document.getElementById("character-detail");
-  
-  const p = document.createElement("p");
-  p.setAttribute("style", "max-width: 350px; ");
-
-  const q = document.createElement("q");
-  q.innerText = quote;
-  
-  p.append(q);
-  characterDetail.appendChild(p);
-};
-
-export { createCharacterRow, showCharacter, showQuote};
+export { createCharacterRow, showCharacter};

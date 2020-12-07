@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .character-row {
@@ -19,7 +19,7 @@ p {
   padding: 25px;
   background-color: #666;
   color: white;
-  font-size: 140%;
+  font-size: 120%;
   height: 100vh;
 }
 
@@ -29,11 +29,6 @@ p {
   vertical-align: middle;
 }
 
-#next-page {
+#previous-button, #next-button {
   cursor: pointer;
-  width: 100vh;
-  border-radius: 3%;
-  border-width: 2px;
-  padding: 1%;
-  font-size: large;
 }
