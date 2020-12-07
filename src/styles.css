@@ -28,3 +28,12 @@ p {
   margin: 15px;
   vertical-align: middle;
 }
+
+#next-page {
+  cursor: pointer;
+  width: 100vh;
+  border-radius: 3%;
+  border-width: 2px;
+  padding: 1%;
+  font-size: large;
+}
